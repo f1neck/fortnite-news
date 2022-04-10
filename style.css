@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #1F90F9;
+}
+.header{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.logo img{
+ width: 88px;
+ height: 66px;
+}
+.menu{
+    color: aliceblue;
+    font-size: 40px;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+body{
+    font-family: "Roboto";
+    background-image: url("images/lobby.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px; 
+    font-weight: 900;  
+}
+.logo div{
+    position: relative;
+    right: 11px;
+}
+.container2{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 200px;
+}
+.picture1{
+    width: 70%;
+    height: 487px;
+    background-image: url("images/maxresdefault.jpg");
+    display: flex;
+    align-items: flex-end;
+    color:aliceblue;
+    font-size: 58px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.picture2{
+    width: 27%;
+    height: 487px;
+    background-image: url("images/фнкс.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    display: flex;
+    align-items: flex-end;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.picture3{
+    width: 24%;
+    height: 362px;
+    background-image: url("images/лук.jfif");
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.picture4{
+    width: 731px;
+    height: 331px;
+    font-size: 48px;
+    font-weight: bold;
+    color:#fffdfd;
+
+}
+.picture4 img{
+    width: 100%;
+    height: 100%;
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+.link_btn{
+    margin: 0% auto;
+    padding: 20px 30px;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #1F90F9;
+    transition: 0.3s;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+.link_btn:hover{
+    background-color: #190572;
+    color:#ffffff;
+}
+.container3{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.champion{
+    width: 600px;
+    height: 450px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.champion img{
+    width: 100%;
+    height: 80%;
+}
+#popap{
+    display: none;
+}
+.team{
+    background-color: #1F90F9;
+    border-radius: 31px;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 82px;
+    padding: 40px 0px;
+}
+.team img{
+    width: 255px;
+    height: 266px;
+}
+.roster{
+    display: flex;
+  flex-wrap: wrap;  
+  width: 600px;
+  justify-content: space-between;
+}
+.player{
+    position: relative;
+    left: 87px;
+}
+.about{
+    width: 100%;
+    padding: 30px;
+    border-radius: 31px;
+    background-color: #1F90F9; 
+    font-size: 36px; 
+    font-weight: 900; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 82px;
+}
+footer{
+    height: 50px;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+#hide{
+    display: none;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.picture5{
+    width: 60%;
+    height: 487px;
+    background-image: url("images/20\ сезон.jpg");
+    display: flex;
+    align-items: flex-end;
+    color:aliceblue;
+    font-size: 58px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.picture6{
+    width: 37%;
+    height: 487px;
+    background-image: url("images/без стройки.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    display: flex;
+    align-items: flex-end;
+    font-size: 60px;
+    font-weight: 1000;
+    padding-bottom: 20px;
+
+}
+.picture7{
+    width: 34%;
+    height: 362px;
+    background-image: url("images/Автоматический-дробовик-.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.picture8{
+    width: 700px;
+    font-size: 48px;
+    font-weight: bold;
+    color:#ffffff;
+}
+.picture8 img{
+    width: 100%;
+    height: auto;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}    
+.container{
+  width: 100%;
+}
+.container img{
+  width: 100%;
+}
+.video{
+    border-radius: 10px; 
+    overflow: hidden;  
+    margin-top: 20px;
+}
+#nav{
+    overflow: hidden;
+    max-height: 0px;
+    transition: 0.5s;
+}
+.page{
+    padding: 20px;
+    background-color: #000000;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.page a{
+    color:#fffdfd;
+    text-decoration: none;
+    width: 100%;
+}
+#menu{
+    display: none;
+}
+.gambit{
+    width: 1000px;
+}
+@media  (max-width:1500px) {
+   .container2{
+       width: 100%;
+   } 
+}
+@media (max-width:1200px) {
+    .container2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        position: static;
+    }
+    .picture1{
+        width: 100%;
+        padding-left: 0px;
+        margin: 0% auto;
+    }
+    nav{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+
+    }
+    body{
+        background-size:  auto;
+    }
+    .picture2{
+        width: 100%;
+    }
+    .pictures{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .picture3{
+        width: 80%;
+    }
+    .picture4{
+        width: 90%;
+    }
+    .picture6{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .video{
+    display: none;    
+    }
+    .picture5{
+        width: 100%;
+    }
+    #menu{
+        display: block;
+        font-size: 70px;
+    }
+   .gambit{
+       width: 100%;
+       padding: 0 20px;
+   } 
+   .roster{
+       flex-wrap: nowrap;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       width: 100%;
+   }
+   .player{
+       position: static;
+   }
+   .about{
+       font-size: 20px;
+       height: auto;
+       padding: 0px 20px 20px;
+   }
+}
+
